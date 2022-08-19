@@ -41,6 +41,9 @@ export default function Air() {
             edit="false"
             value={4}
           />
+          <div className="bg-gradient-to-r from-main-light via-main-mid-1 to-main-dark h-[60px] w-[115px] font-poppinsSemiBold text-white flex justify-center items-center rounded-lg cursor-pointer hover:bg-white hover:h-[65px] hover:w-[120px] transition-all self-center">
+            Order Now
+          </div>
           <div className="font-poppinsSemiBold lg:pl-20">4 Stars</div>
         </div>
       </div>
