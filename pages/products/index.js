@@ -9,8 +9,8 @@ export default function Products() {
   return (
     <div className="flex flex-col">
       <Header />
-      <div className="pt-[99px] self-center w-[80%]">
-        <div className="p-10 h-[90px] flex justify-center pt-8 text-white font-poppinsSemiBold bg-gradient-to-r from-main-light via-main-mid-1 to-main-dark  border-solid border-2 border-slate-700">
+      <div className="pt-[90px] self-center w-[100%]">
+        <div className="p-10 h-[90px] flex justify-center pt-8 text-white font-poppinsSemiBold bg-black">
           10% discount when you buy physically and extra 5% discount when men
           approach the counter
         </div>
@@ -36,18 +36,22 @@ export default function Products() {
         <ProductCard
           imageLink={"/imgs/nights.jpeg"}
           title="Floyya Nights Free"
-          height={600}
+          height={500}
           width={500}
           webLink={"/products/nights"}
         />
         <ProductCard
           imageLink={"/imgs/air.jpeg"}
           title="Floyya Air Fresh"
+          height={500}
+          width={500}
           webLink={"/products/air"}
         />
         <ProductCard
           imageLink={"/imgs/ultra.jpeg"}
           title="Floyya Ultra Clean"
+          height={500}
+          width={500}
           webLink={"/products/ultra"}
         />
       </div>

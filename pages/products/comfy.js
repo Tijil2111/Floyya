@@ -13,18 +13,18 @@ export default function Comfy() {
       <div className="text-[40px] pt-40 text-center font-muthiara md:pl-0">
         Floyya Comfy Max
       </div>
-      <div className="flex flex-wrap justify-center pt-20">
+      <div className="flex flex-col items-center justify-center pt-20">
         <img
           src="/imgs/comfy.jpeg"
           className="h-[500px] w-[500px] rounded-md"
         ></img>
         <div className="flex flex-col w-[500px]">
-          <div className="font-poppinsLight text-xl lg:pl-20 lg:pt-20 lg:pb-2 lg:w-[800px]">
+          <div className="font-poppinsLight text-xl pt-10 ">
             Up to 100% stain protection is provided by Floyya Comfy-Max. Its
             whole leak guard and roughly 50mm longer length than conventional
             pads shield you from leaks on all sides.
           </div>
-          <div className="font-poppinsLight text-xl lg:pl-20 lg:w-[800px]">
+          <div className="font-poppinsLight text-xl pt-2">
             Your period will be comfortable thanks to the blue core's
             liquid-lock magic gel locking in the moisture. Its wings hug
             securely around your underwear to hold the pad in place, and its

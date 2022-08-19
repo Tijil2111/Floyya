@@ -18,7 +18,7 @@ export default function educate() {
         <img
           src="/imgs/educate1.jpeg"
           alt="educate1"
-          className="h-[400px] pt-20"
+          className="h-[400px] pt-5"
         />
         <div className="flex flex-col gap-5">
           <span className="font-poppinsSemiBold text-main-mid text-2xl">
