@@ -137,13 +137,13 @@ export default function Home() {
                       <tr>
                         <th
                           scope="col"
-                          className="text-sm font-medium text-gray-900 px-6 py-4 text-left"
+                          className="text-sm font-bold text-gray-900 px-6 py-4 text-left"
                         >
                           Items
                         </th>
                         <th
                           scope="col"
-                          className="text-sm font-medium text-gray-900 px-6 py-4 text-left"
+                          className="text-sm font-bold text-gray-900 px-6 py-4 text-left"
                         >
                           Total Cost
                         </th>
@@ -151,7 +151,7 @@ export default function Home() {
                     </thead>
                     <tbody>
                       <tr className="border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Raw Material
                         </td>
                         <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -159,7 +159,7 @@ export default function Home() {
                         </td>
                       </tr>
                       <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Wages and Salaries
                         </td>
                         <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -167,7 +167,7 @@ export default function Home() {
                         </td>
                       </tr>
                       <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Electricity
                         </td>
                         <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -175,7 +175,7 @@ export default function Home() {
                         </td>
                       </tr>
                       <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Water Charges
                         </td>
                         <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -183,7 +183,7 @@ export default function Home() {
                         </td>
                       </tr>
                       <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Repair and Maintainance
                         </td>
                         <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -191,7 +191,7 @@ export default function Home() {
                         </td>
                       </tr>
                       <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Insurance
                         </td>
                         <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -199,7 +199,7 @@ export default function Home() {
                         </td>
                       </tr>
                       <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Marketing
                         </td>
                         <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -207,7 +207,7 @@ export default function Home() {
                         </td>
                       </tr>
                       <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Rent
                         </td>
                         <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -215,7 +215,7 @@ export default function Home() {
                         </td>
                       </tr>
                       <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Depreciation(Misc)
                         </td>
                         <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
@@ -223,7 +223,7 @@ export default function Home() {
                         </td>
                       </tr>
                       <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Total Cost of Production
                         </td>
                         <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
