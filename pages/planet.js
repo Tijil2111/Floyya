@@ -21,7 +21,7 @@ export default function planet() {
           src="/imgs/environment.svg"
           className="w-[500px] h-[500px] rounded-lg "
         />
-        <div className="font-poppinsLight w-[800px] pl-10 pr-10">
+        <div className="font-poppinsLight w-[800px] pl-10 pr-10 text-[20px]">
           Floyya helped women shift their behaviour and gave them the option of
           feeling comfortable during their period by being the first to
           introduce disposable sanitary pads. Over the years, this independence
@@ -35,7 +35,7 @@ export default function planet() {
         </div>
       </div>
       <div className="flex flex-wrap justify-center items-center">
-        <div className="font-poppinsLight w-[800px] pl-10 pr-10 md:pt-0 pt-10">
+        <div className="font-poppinsLight w-[800px] pl-10 pr-10 md:pt-0 pt-10 text-[20px]">
           Being an environmentally conscious company, Floyya has always followed
           sensible rules for managing plastic waste. All Floyya polybags met
           with the relevant regulation's requirement that plastic packaging be

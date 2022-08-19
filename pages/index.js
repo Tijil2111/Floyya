@@ -42,7 +42,7 @@ export default function Home() {
               <div className="font-poppinsSemiBold text-3xl text-main-mid">
                 Top Sheet
               </div>
-              <div className="pt-5 font-poppinsLight">
+              <div className="pt-5 font-poppinsLight text-[20px]">
                 Because it is gentle , has excellent liquid retention
                 capabilities, and is an excellent top sheet, organic cotton is
                 one of the best raw materials for sanitary napkins. It is supple
@@ -54,7 +54,7 @@ export default function Home() {
               <div className="font-poppinsSemiBold text-3xl text-main-mid">
                 Absorbant Core
               </div>
-              <div className="pt-5 font-poppinsLight">
+              <div className="pt-5 font-poppinsLight text-[20px]">
                 {`Bamboo's fibre is loaded with numerous micro-holes and micro-gaps,
               making it perfect for absorbent cores since it wicks and absorbs
               water 3–4 times better than cotton and minimises odour.`}
@@ -64,7 +64,7 @@ export default function Home() {
               <div className="font-poppinsSemiBold text-3xl text-main-mid">
                 Barrier Sheet
               </div>
-              <div className="pt-5 font-poppinsLight">
+              <div className="pt-5 font-poppinsLight text-[20px]">
                 An alternative sustainable replacement of petroleum- based fibre
                 in the barrier sheet is the PLA (Poly Lactic Acid) fibre, which
                 is derived from cornstarch.
@@ -234,6 +234,13 @@ export default function Home() {
                   </table>
                 </div>
               </div>
+            </div>
+            <div className=" self-center pb-10 pt-10">
+              {" "}
+              <img
+                src="/imgs/competition.jpeg"
+                className="h-[400px] w-[600px] rounded-xl"
+              ></img>
             </div>
           </div>
         </div>

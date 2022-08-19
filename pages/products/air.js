@@ -19,13 +19,15 @@ export default function Air() {
           className="h-[500px] w-[500px] rounded-md"
         ></img>
         <div className="flex flex-col w-[500px]">
-          <div className="font-poppinsLight text-xl lg:p-20 lg:w-[800px]">
+          <div className="font-poppinsLight text-xl lg:pl-20 lg:pt-20 lg:pb-2  lg:w-[800px]">
             For a comfortable period, choose Floyya Airfresh. Dermatologically
             proven, it leaves your skin feeling airy thanks to its 500 air fresh
             pores. It contains a dual-action gel that eliminates odours rather
-            than just covering them up. With a larger back and an almost 50%
-            longer length, it has a wonderful aroma that keeps you fresh all
-            day.
+            than just covering them up.
+          </div>
+          <div className="font-poppinsLight text-xl lg:pl-20  lg:pb-2  lg:w-[800px]">
+            With a larger back and an almost 50% longer length, it has a
+            wonderful aroma that keeps you fresh all day.
           </div>
           <div className="font-poppinsSemiBold pt-10 lg:pl-20">
             Rs- 160 Per Pack (12 Pads Inside)

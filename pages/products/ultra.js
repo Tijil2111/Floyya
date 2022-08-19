@@ -20,12 +20,14 @@ export default function Ultra() {
           className="h-[500px] w-[500px] rounded-md"
         ></img>
         <div className="flex flex-col w-[500px]">
-          <div className="font-poppinsLight text-xl lg:p-20 lg:w-[800px]">
+          <div className="font-poppinsLight text-xl lg:pl-20 lg:pt-20 lg:pb-2  lg:w-[800px]">
             You receive our No. 1 Hygienic Protection with FloyyaUltra Clean. It
             contains a germ-lock technology that completely seals in moisture,
             odour, and bacteria. For a longer-lasting coverage that will allow
-            you to have worry-free periods, it is almost 40% longer. The
-            Dri-Weave Cover makes sure that the blood from your period is
+            you to have worry-free periods, it is almost 40% longer.
+          </div>
+          <div className="font-poppinsLight text-xl lg:pl-20  lg:pb-2  lg:w-[800px]">
+            The Dri-Weave Cover makes sure that the blood from your period is
             quickly absorbed, and it has a pleasant aroma for all-day freshness.
           </div>
           <div className="font-poppinsSemiBold pt-10 lg:pl-20">

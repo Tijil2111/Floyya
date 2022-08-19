@@ -19,14 +19,17 @@ export default function Comfy() {
           className="h-[500px] w-[500px] rounded-md"
         ></img>
         <div className="flex flex-col w-[500px]">
-          <div className="font-poppinsLight text-xl lg:p-20 lg:w-[800px]">
+          <div className="font-poppinsLight text-xl lg:pl-20 lg:pt-20 lg:pb-2 lg:w-[800px]">
             Up to 100% stain protection is provided by Floyya Comfy-Max. Its
             whole leak guard and roughly 50mm longer length than conventional
-            pads shield you from leaks on all sides. Your period will be
-            comfortable thanks to the blue core's liquid-lock magic gel locking
-            in the moisture. Its wings hug securely around your underwear to
-            hold the pad in place, and its floral aroma keeps you feeling young
-            even when you're having a period.
+            pads shield you from leaks on all sides.
+          </div>
+          <div className="font-poppinsLight text-xl lg:pl-20 lg:w-[800px]">
+            Your period will be comfortable thanks to the blue core's
+            liquid-lock magic gel locking in the moisture. Its wings hug
+            securely around your underwear to hold the pad in place, and its
+            floral aroma keeps you feeling young even when you're having a
+            period.
           </div>
           <div className="font-poppinsSemiBold pt-10 lg:pl-20">
             Rs- 160 Per Pack (12 Pads Inside)
