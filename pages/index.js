@@ -13,7 +13,11 @@ export default function Home() {
         </Head>
         <Header />
         <div>
-          <div className="pt-0 bg-gradient-to-r from-main-light via-main-mid-1 to-main-dark h-[60vh] the_clip w-[200vw] md:w-screen"></div>
+          <div className="pt-0 bg-gradient-to-r from-main-light via-main-mid-1 to-main-dark h-[60vh] the_clip w-[200vw] md:w-screen">
+            <div className="pt-[120px] text-end pr-20 font-poppinsSemiBold text-white text-2xl">
+              #EmbraceYourWomanhood
+            </div>
+          </div>
           <div className="flex flex-wrap p-10 md:pl-10 justify-evenly">
             <div className="w-[450px] font-poppinsLight text-[20px] pb-5 lg:pb-0">
               {" "}
@@ -38,7 +42,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-10 p-10 pb-20">
-            <div className="w-[500px] h-[450px] md:h-[300px] p-5  border-solid border-2 border-main-dark rounded-md">
+            <div className="w-[500px] h-auto  p-5  border-solid border-2 border-main-dark rounded-md">
               <div className="font-poppinsSemiBold text-3xl text-main-mid">
                 Top Sheet
               </div>
@@ -50,7 +54,7 @@ export default function Home() {
                 free movement.
               </div>
             </div>
-            <div className="w-[500px] h-[450px] md:h-[300px] sm:self-end p-5 border-solid border-2 border-main-dark rounded-md">
+            <div className="w-[500px]  h-auto sm:self-end p-5 border-solid border-2 border-main-dark rounded-md">
               <div className="font-poppinsSemiBold text-3xl text-main-mid">
                 Absorbant Core
               </div>
@@ -60,7 +64,7 @@ export default function Home() {
               water 3–4 times better than cotton and minimises odour.`}
               </div>
             </div>
-            <div className="w-[500px] h-[450px] md:h-[300px] p-5 border-solid border-2 border-main-dark rounded-md">
+            <div className="w-[500px]  h-auto p-5 border-solid border-2 border-main-dark rounded-md">
               <div className="font-poppinsSemiBold text-3xl text-main-mid">
                 Barrier Sheet
               </div>
@@ -121,126 +125,6 @@ export default function Home() {
                   .
                 </li>
               </ul>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div className="text-[40px] pt-20 font-muthiara text-center pb-40">
-            <span className="text-main-dark">Cost Sheet</span>
-          </div>
-          <div className="flex flex-col lg:pl-20 lg:pr-20 justify-center">
-            <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
-              <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
-                <div className="overflow-hidden">
-                  <table className="min-w-full">
-                    <thead className="border-b">
-                      <tr>
-                        <th
-                          scope="col"
-                          className="text-sm font-bold text-gray-900 px-6 py-4 text-left"
-                        >
-                          Items
-                        </th>
-                        <th
-                          scope="col"
-                          className="text-sm font-bold text-gray-900 px-6 py-4 text-left"
-                        >
-                          Total Cost
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr className="border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
-                          Raw Material
-                        </td>
-                        <td className="text-sm text-gray-900 font-bold  px-6 py-4 whitespace-nowrap">
-                          Rs 6,00,000
-                        </td>
-                      </tr>
-                      <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
-                          Wages and Salaries
-                        </td>
-                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
-                          Rs 3,50,000
-                        </td>
-                      </tr>
-                      <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
-                          Electricity
-                        </td>
-                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
-                          Rs 30,000
-                        </td>
-                      </tr>
-                      <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
-                          Water Charges
-                        </td>
-                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
-                          Rs 50,000
-                        </td>
-                      </tr>
-                      <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
-                          Repair and Maintainance
-                        </td>
-                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
-                          Rs 5,000
-                        </td>
-                      </tr>
-                      <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
-                          Insurance
-                        </td>
-                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
-                          Rs 3,000
-                        </td>
-                      </tr>
-                      <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
-                          Marketing
-                        </td>
-                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
-                          Rs 1,00,000
-                        </td>
-                      </tr>
-                      <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
-                          Rent
-                        </td>
-                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
-                          Rs 40,000
-                        </td>
-                      </tr>
-                      <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
-                          Depreciation(Misc)
-                        </td>
-                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
-                          Rs 20,000
-                        </td>
-                      </tr>
-                      <tr className="bg-white border-b">
-                        <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
-                          Total Cost of Production
-                        </td>
-                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
-                          Rs 11,53,000
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-            <div className=" self-center pb-10 pt-10">
-              {" "}
-              <img
-                src="/imgs/competition.jpeg"
-                className="h-[400px] w-[600px] rounded-xl"
-              ></img>
             </div>
           </div>
         </div>
