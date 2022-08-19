@@ -7,12 +7,18 @@ import Footer from "../../components/Footer";
 
 export default function Products() {
   return (
-    <div>
+    <div className="flex flex-col">
       <Header />
+      <div className="pt-[99px] self-center w-[80%]">
+        <div className="p-10 h-[90px] flex justify-center pt-8 text-white font-poppinsSemiBold bg-gradient-to-r from-main-light via-main-mid-1 to-main-dark  border-solid border-2 border-slate-700">
+          10% discount when you buy physically and extra 5% discount when men
+          approach the counter
+        </div>
+      </div>
       <Head>
         <title>Floyya | Products</title>
       </Head>
-      <div className="text-[40px] pt-40 text-center font-muthiara md:pl-0">
+      <div className="text-[40px] pt-32 text-center font-muthiara md:pl-0">
         Products
       </div>
       <div className="text-[20px] pt-10 text-center font-poppinsSemiBold">
