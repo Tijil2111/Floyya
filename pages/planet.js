@@ -53,6 +53,7 @@ export default function planet() {
           className="w-[500px] h-[500px] rounded-lg "
         />
       </div>
+      <Footer />
     </div>
   );
 }

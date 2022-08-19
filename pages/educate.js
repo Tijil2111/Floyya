@@ -2,6 +2,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Head from "next/head";
+import Footer from "../components/Footer";
 
 export default function educate() {
   return (
@@ -83,6 +84,7 @@ We have collaborated with "MENSTRUPEDIA" India's very own info magazine that's a
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
