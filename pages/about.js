@@ -133,12 +133,15 @@ export default function about() {
         expensive or harder to procure. Because when most of the shops were
         selling basic necessities for a reduced price we noticed that women
         hygiene products such as Sanitary napkins were not included in that
-        list. Floyya is a teen initiative to provide sanitary napkins to the
-        people who need them and to destigmatize the taboo still prevalent in
-        our country through various steps taken. Being a teen, i.e the the
-        future of our nation, we believe that it is our moral responsibility to
-        break the age old stereotypes and normalise the topic of menstruation,
-        especially for the male section of the society.
+        list.
+      </div>
+      <div className=" p-10 pt-1 pb-20 text-center font-poppinsLight text-[20px]">
+        Floyya is a teen initiative to provide sanitary napkins to the people
+        who need them and to destigmatize the taboo still prevalent in our
+        country through various steps taken. Being a teen, i.e the the future of
+        our nation, we believe that it is our moral responsibility to break the
+        age old stereotypes and normalise the topic of menstruation, especially
+        for the male section of the society.
       </div>
       <Footer />
     </div>

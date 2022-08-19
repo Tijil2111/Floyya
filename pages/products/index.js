@@ -9,8 +9,8 @@ export default function Products() {
   return (
     <div className="flex flex-col">
       <Header />
-      <div className="pt-[90px] self-center w-[100%]">
-        <div className="p-10 h-[90px] flex justify-center pt-8 text-white font-poppinsSemiBold bg-black">
+      <div className="pt-[90px]">
+        <div className="p-10 h-[90px] flex justify-center pt-8 text-white font-poppinsSemiBold bg-black w-[150%] lg:w-[100%] ">
           10% discount when you buy physically and extra 5% discount when men
           approach the counter
         </div>

@@ -35,6 +35,10 @@ export default function planet() {
         </div>
       </div>
       <div className="flex flex-wrap justify-center items-center">
+        <img
+          src="/imgs/environment1.svg"
+          className="w-[500px] h-[500px] rounded-lg "
+        />
         <div className="font-poppinsLight w-[800px] pl-10 pr-10 md:pt-0 pt-10 text-[20px]">
           Being an environmentally conscious company, Floyya has always followed
           sensible rules for managing plastic waste. All Floyya polybags met
@@ -48,10 +52,6 @@ export default function planet() {
           In accordance with our sustainability plan, Floyya thick pads are
           created with around 75% renewable source materials.
         </div>
-        <img
-          src="/imgs/environment1.svg"
-          className="w-[500px] h-[500px] rounded-lg "
-        />
       </div>
       <Footer />
     </div>

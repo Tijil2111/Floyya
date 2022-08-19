@@ -13,7 +13,7 @@ export default function Home() {
         </Head>
         <Header />
         <div>
-          <div className="pt-0 bg-gradient-to-r from-main-light via-main-mid-1 to-main-dark h-[60vh] the_clip w-[150vw] md:w-screen"></div>
+          <div className="pt-0 bg-gradient-to-r from-main-light via-main-mid-1 to-main-dark h-[60vh] the_clip w-[200vw] md:w-screen"></div>
           <div className="flex flex-wrap p-10 md:pl-10 justify-evenly">
             <div className="w-[450px] font-poppinsLight text-[20px] pb-5 lg:pb-0">
               {" "}
@@ -38,7 +38,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-10 p-10 pb-20">
-            <div className="w-[500px] h-[300px] p-5  border-solid border-2 border-main-dark rounded-md">
+            <div className="w-[500px] h-[450px] md:h-[300px] p-5  border-solid border-2 border-main-dark rounded-md">
               <div className="font-poppinsSemiBold text-3xl text-main-mid">
                 Top Sheet
               </div>
@@ -50,7 +50,7 @@ export default function Home() {
                 free movement.
               </div>
             </div>
-            <div className="w-[500px] h-[300px] sm:self-end p-5 border-solid border-2 border-main-dark rounded-md">
+            <div className="w-[500px] h-[450px] md:h-[300px] sm:self-end p-5 border-solid border-2 border-main-dark rounded-md">
               <div className="font-poppinsSemiBold text-3xl text-main-mid">
                 Absorbant Core
               </div>
@@ -60,7 +60,7 @@ export default function Home() {
               water 3–4 times better than cotton and minimises odour.`}
               </div>
             </div>
-            <div className="w-[500px] h-[300px] p-5 border-solid border-2 border-main-dark rounded-md">
+            <div className="w-[500px] h-[450px] md:h-[300px] p-5 border-solid border-2 border-main-dark rounded-md">
               <div className="font-poppinsSemiBold text-3xl text-main-mid">
                 Barrier Sheet
               </div>
