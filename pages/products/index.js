@@ -32,17 +32,17 @@ export default function Products() {
           title="Floyya Nights Free"
           height={600}
           width={500}
-          webLink={"/products/comfy"}
+          webLink={"/products/nights"}
         />
         <ProductCard
           imageLink={"/imgs/air.jpeg"}
-          title="Floyya Air Max"
-          webLink={"/products/comfy"}
+          title="Floyya Air Fresh"
+          webLink={"/products/air"}
         />
         <ProductCard
           imageLink={"/imgs/ultra.jpeg"}
           title="Floyya Ultra Clean"
-          webLink={"/products/comfy"}
+          webLink={"/products/ultra"}
         />
       </div>
 

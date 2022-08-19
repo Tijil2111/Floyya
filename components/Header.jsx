@@ -20,7 +20,7 @@ export default function Header() {
         </div>
 
         <div className="text-white text-[20px] cursor-pointer link link-underline link-underline-black font-poppinsSemiBold">
-          our planet
+          <Link href="/planet"> our planet</Link>
         </div>
       </div>
       <div
@@ -39,7 +39,7 @@ export default function Header() {
         </div>
 
         <div className="text-white text-[20px] cursor-pointer link link-underline link-underline-black ">
-          our planet
+          <Link href="/planet"> our planet</Link>
         </div>
       </div>
       {open ? (
