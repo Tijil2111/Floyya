@@ -154,7 +154,7 @@ export default function Home() {
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Raw Material
                         </td>
-                        <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <td className="text-sm text-gray-900 font-bold  px-6 py-4 whitespace-nowrap">
                           Rs 6,00,000
                         </td>
                       </tr>
@@ -162,7 +162,7 @@ export default function Home() {
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Wages and Salaries
                         </td>
-                        <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
                           Rs 3,50,000
                         </td>
                       </tr>
@@ -170,7 +170,7 @@ export default function Home() {
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Electricity
                         </td>
-                        <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
                           Rs 30,000
                         </td>
                       </tr>
@@ -178,7 +178,7 @@ export default function Home() {
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Water Charges
                         </td>
-                        <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
                           Rs 50,000
                         </td>
                       </tr>
@@ -186,7 +186,7 @@ export default function Home() {
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Repair and Maintainance
                         </td>
-                        <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
                           Rs 5,000
                         </td>
                       </tr>
@@ -194,7 +194,7 @@ export default function Home() {
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Insurance
                         </td>
-                        <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
                           Rs 3,000
                         </td>
                       </tr>
@@ -202,7 +202,7 @@ export default function Home() {
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Marketing
                         </td>
-                        <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
                           Rs 1,00,000
                         </td>
                       </tr>
@@ -210,7 +210,7 @@ export default function Home() {
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Rent
                         </td>
-                        <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
                           Rs 40,000
                         </td>
                       </tr>
@@ -218,7 +218,7 @@ export default function Home() {
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Depreciation(Misc)
                         </td>
-                        <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
                           Rs 20,000
                         </td>
                       </tr>
@@ -226,7 +226,7 @@ export default function Home() {
                         <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-gray-900">
                           Total Cost of Production
                         </td>
-                        <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
+                        <td className="text-sm text-gray-900 font-bold px-6 py-4 whitespace-nowrap">
                           Rs 11,53,000
                         </td>
                       </tr>
